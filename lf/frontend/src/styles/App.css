@@ -1,0 +1,40 @@
+.header-container {
+  background-color: #1D43C6;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1D43C6;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+button:hover {
+  background-color: #F9A86F;
+  color: #000000;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+button:disabled {
+  background-color: #1F2245;
+  cursor: not-allowed;
+  opacity: 0.6;
+}

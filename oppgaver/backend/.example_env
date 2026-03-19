@@ -1,0 +1,15 @@
+#TODO 1.0: Fyll inn de nødvendige verdiene for å koble til Azure Storage, Azure Foundry og Spotify.
+# Azure Storage (Blob + Tables)
+AZURE_BLOB_STORAGE_CONNECTION_STRING=
+AZURE_BLOB_STORAGE_CONTAINER_NAME=playlist-images
+
+# Azure OpenAI / AI Foundry
+AZURE_OPENAI_API_KEY=
+AZURE_OPENAI_BASE_URL=https://aif-sc-workshop.cognitiveservices.azure.com
+AZURE_OPENAI_IMAGE_ENDPOINT=/openai/deployments/gpt-image-1/images/generations?api-version=2025-04-01-preview
+AZURE_OPENAI_CHAT_ENDPOINT=/openai/deployments/gpt-5/chat/completions?api-version=2025-01-01-preview
+
+#Spotify API access token
+SPOTIFY_CLIENT_ID=
+SPOTIFY_CLIENT_SECRET=
+SPOTIFY_ACCESS_TOKEN=

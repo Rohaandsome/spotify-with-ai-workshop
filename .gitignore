@@ -1,0 +1,25 @@
+# Python virtual environment
+.spotify-env/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Environment variables (secrets)
+.env
+*.env
+
+# Spotify tokens
+.spotify_refresh_token
+clients/.spotify_refresh_token
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

@@ -1,0 +1,60 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.backButton {
+  margin-bottom: 1rem;
+  background-color: #1D43C6;
+  color: #FFFFFF;
+}
+
+.backButton:hover {
+  background-color: #78FF9B;
+  color: #000000;
+}
+
+.tracksSection {
+  background-color: #FFFFFF;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+  border: 2px solid #1D43C6;
+}
+
+.trackList {
+  list-style: none;
+  padding: 0;
+}
+
+.trackList li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #1D43C6;
+}
+
+.trackList li:last-child {
+  border-bottom: none;
+}
+
+.generateButton {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.generatingSection {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.coverSection {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.coverImage {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}

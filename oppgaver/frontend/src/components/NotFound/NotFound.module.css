@@ -1,0 +1,12 @@
+.notFoundImage {
+  width: 756px;
+  max-width: 100%;
+  margin-bottom: 16px;
+}
+
+.notFoundText {
+  font-size: 1.2rem;
+  color: #333;
+  text-align: center;
+  line-height: 1.4;
+}
